@@ -14,6 +14,7 @@ public class Main {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
+    // create 2 different arrays so they can be compared
     int array1[] = new int[5];
     int array2[] = new int[5];
 
@@ -32,7 +33,7 @@ public class Main {
     // declare a count variable to keep count of how many numbers are the same
     int count = 0;
 
-    // check each number for each array
+    // check each number for each array if they are the same
     for (int i = 0; i < array1.length; i++) {
       if (array1[i] == array2[i]) {
         count++;
